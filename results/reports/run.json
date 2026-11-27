@@ -1,0 +1,40 @@
+{
+  "seed": 42,
+  "repeats": 2,
+  "screening_features": [
+    "age",
+    "bp",
+    "bgr",
+    "htn",
+    "dm",
+    "cad",
+    "appet",
+    "pe",
+    "ane"
+  ],
+  "train": 320,
+  "test": 80,
+  "shap": true,
+  "best_params": {
+    "Random Forest": {
+      "model__max_depth": 6
+    },
+    "SVM": {
+      "model__C": 1
+    },
+    "XGBoost": {
+      "model__max_depth": 3
+    },
+    "Stacking": {
+      "random_forest": {
+        "model__max_depth": 6
+      },
+      "svm": {
+        "model__C": 1
+      },
+      "xgboost": {
+        "model__max_depth": 3
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+model_a,model_b,a_only_correct,b_only_correct,p,holm_p
+XGBoost,Stacking,0,3,0.25,1.0
+Random Forest,XGBoost,2,0,0.5,1.0
+SVM,Stacking,0,2,0.5,1.0
+Random Forest,SVM,1,0,1.0,1.0
+SVM,XGBoost,2,1,1.0,1.0
+Random Forest,Stacking,0,1,1.0,1.0

@@ -1,0 +1,24 @@
+screening fold 1 complete
+screening fold 2 complete
+screening fold 3 complete
+screening fold 4 complete
+screening fold 5 complete
+screening fold 6 complete
+screening fold 7 complete
+screening fold 8 complete
+screening fold 9 complete
+screening fold 10 complete
+full_features fold 1 complete
+full_features fold 2 complete
+full_features fold 3 complete
+full_features fold 4 complete
+full_features fold 5 complete
+full_features fold 6 complete
+full_features fold 7 complete
+full_features fold 8 complete
+full_features fold 9 complete
+full_features fold 10 complete
+Random Forest {'model': 'Random Forest', 'accuracy': 0.9625, 'precision': 1.0, 'recall': 0.94, 'specificity': np.float64(1.0), 'f1': 0.9690721649484536, 'roc_auc': 0.996, 'average_precision': 0.9978571428571429, 'brier': 0.04052125540640797, 'accuracy_ci_low': 0.8942980149834914, 'accuracy_ci_high': 0.9921988127343401}
+SVM {'model': 'SVM', 'accuracy': 0.95, 'precision': 1.0, 'recall': 0.92, 'specificity': np.float64(1.0), 'f1': 0.9583333333333334, 'roc_auc': 0.9853333333333333, 'average_precision': 0.9938888888888888, 'brier': 0.030908094625864302, 'accuracy_ci_low': 0.8769012635563602, 'accuracy_ci_high': 0.9862106060236556}
+XGBoost {'model': 'XGBoost', 'accuracy': 0.9375, 'precision': 1.0, 'recall': 0.9, 'specificity': np.float64(1.0), 'f1': 0.9473684210526315, 'roc_auc': 0.992, 'average_precision': 0.992258064516129, 'brier': 0.05360830947756767, 'accuracy_ci_low': 0.8601429247023766, 'accuracy_ci_high': 0.9793969276981148}
+Stacking {'model': 'Stacking', 'accuracy': 0.975, 'precision': 1.0, 'recall': 0.96, 'specificity': np.float64(1.0), 'f1': 0.9795918367346939, 'roc_auc': 0.9913333333333334, 'average_precision': 0.9958730158730158, 'brier': 0.0258475381853679, 'accuracy_ci_low': 0.9125928440694057, 'accuracy_ci_high': 0.9969579138352488}
