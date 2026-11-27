@@ -1,4 +1,4 @@
-# CKD Thesis V2 — limited-information screening
+# CKD Thesis
 
 Research prototype, not a clinical diagnostic device. Four models: Random Forest, SVM, XGBoost, and stacking with logistic regression meta-model. Raw CSV is preserved. Fixed 80/20 stratified split (seed 42); 5-fold repeated nested CV on training only; 3-fold grid search using ROC-AUC; stacking uses out-of-fold probabilities with tuning inside each internal fit. No artificial noise, label changes, test-set selection, or target accuracy manipulation. The nine screening variables are age, bp, bgr, htn, dm, cad, appet, pe, ane. This is a limited-information scenario, not proven prospective screening: timing of clinical measurements is unknown. Full 24-feature stacking comparison is performed on identical training CV folds (feature-set ablation). External validation is not available; prior analysis of the same dataset also means the holdout is not truly independent of the research history. High accuracy may reflect dataset characteristics. Results do not establish novelty or clinical utility.
 
